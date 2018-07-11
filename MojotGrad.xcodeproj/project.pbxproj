@@ -7,21 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3879C65357A35E61B5AD7ACB /* Pods_MojotGrad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FF74CD62DC0434B27A2981 /* Pods_MojotGrad.framework */; };
+		9F0B07F3201448CF00ACE6CC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0B07F2201448CF00ACE6CC /* NetworkManager.swift */; };
+		9F0E4625200BA6AE00B3687A /* CoffeePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4620200BA6AD00B3687A /* CoffeePin.swift */; };
+		9F0E4626200BA6AE00B3687A /* DetailsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4621200BA6AD00B3687A /* DetailsController.swift */; };
+		9F0E4627200BA6AE00B3687A /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4622200BA6AD00B3687A /* SearchCell.swift */; };
+		9F0E4628200BA6AE00B3687A /* SearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4623200BA6AE00B3687A /* SearchController.swift */; };
+		9F0E4629200BA6AE00B3687A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0E4624200BA6AE00B3687A /* HomeController.swift */; };
+		9F0E462E200BA6EB00B3687A /* Foursquare.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F0E462D200BA6EB00B3687A /* Foursquare.storyboard */; };
+		9F0EB38320161FEC00B41DFB /* ReachabilityMenager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0EB38220161FEC00B41DFB /* ReachabilityMenager.swift */; };
+		9F172D0C2008471C0030B811 /* FacebookLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F172D052008471B0030B811 /* FacebookLoginButton.swift */; };
+		9F172D0D2008471C0030B811 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F172D062008471B0030B811 /* LoginButton.swift */; };
+		9F172D0E2008471C0030B811 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F172D072008471C0030B811 /* LoginTextField.swift */; };
+		9F2C76292012644100598BD0 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2C76282012644100598BD0 /* RealmManager.swift */; };
+		9F5E6B2C20D82624005381D8 /* WeatherCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E6B2A20D82624005381D8 /* WeatherCollectionViewCell.swift */; };
+		9F5E6B2D20D82624005381D8 /* WeatherCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F5E6B2B20D82624005381D8 /* WeatherCollectionViewCell.xib */; };
+		9F5E6B2F20D8A627005381D8 /* SectionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5E6B2E20D8A627005381D8 /* SectionController.swift */; };
 		9F807DF42007A8950046F3E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F807DF32007A8950046F3E3 /* AppDelegate.swift */; };
-		9F807DF62007A8950046F3E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F807DF52007A8950046F3E3 /* ViewController.swift */; };
+		9F807DF62007A8950046F3E3 /* WeatherVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F807DF52007A8950046F3E3 /* WeatherVC.swift */; };
 		9F807DF92007A8950046F3E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F807DF72007A8950046F3E3 /* Main.storyboard */; };
 		9F807DFB2007A8950046F3E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F807DFA2007A8950046F3E3 /* Assets.xcassets */; };
 		9F807DFE2007A8950046F3E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F807DFC2007A8950046F3E3 /* LaunchScreen.storyboard */; };
+		9F807E0D2007B09B0046F3E3 /* CONSTANTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F807E0C2007B09B0046F3E3 /* CONSTANTS.swift */; };
+		9F807E0F2007B2730046F3E3 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F807E0E2007B2730046F3E3 /* CurrentWeather.swift */; };
+		9F807E122007B42D0046F3E3 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F807E112007B42D0046F3E3 /* ApiManager.swift */; };
+		9F807E1C2007CACA0046F3E3 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F807E1B2007CACA0046F3E3 /* ReusableView.swift */; };
+		9F807E1E2007CAE70046F3E3 /* NibLoadableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F807E1D2007CAE70046F3E3 /* NibLoadableView.swift */; };
+		9F807E202007CB050046F3E3 /* UITableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F807E1F2007CB050046F3E3 /* UITableView+Ext.swift */; };
+		9F807E222007E1C30046F3E3 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F807E212007E1C30046F3E3 /* Forecast.swift */; };
+		9F95193420156A1C00F42906 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F95193320156A1C00F42906 /* Utils.swift */; };
+		9FA7E5DE200BEF1B00278F56 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7E5DD200BEF1B00278F56 /* LocationManager.swift */; };
+		9FA7E5E1200C5B6F00278F56 /* VenueRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7E5E0200C5B6F00278F56 /* VenueRealm.swift */; };
+		9FA7E5E4200D4E6400278F56 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA7E5E3200D4E6400278F56 /* LoginVC.swift */; };
+		CEB2F9DC20DC6D370071E86B /* UniqueIdGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB2F9DB20DC6D370071E86B /* UniqueIdGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		63FF74CD62DC0434B27A2981 /* Pods_MojotGrad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MojotGrad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F0B07F2201448CF00ACE6CC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		9F0E4620200BA6AD00B3687A /* CoffeePin.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoffeePin.swift; sourceTree = "<group>"; };
+		9F0E4621200BA6AD00B3687A /* DetailsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsController.swift; sourceTree = "<group>"; };
+		9F0E4622200BA6AD00B3687A /* SearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		9F0E4623200BA6AE00B3687A /* SearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchController.swift; sourceTree = "<group>"; };
+		9F0E4624200BA6AE00B3687A /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		9F0E462D200BA6EB00B3687A /* Foursquare.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Foursquare.storyboard; sourceTree = "<group>"; };
+		9F0EB38220161FEC00B41DFB /* ReachabilityMenager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReachabilityMenager.swift; sourceTree = "<group>"; };
+		9F172D052008471B0030B811 /* FacebookLoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookLoginButton.swift; sourceTree = "<group>"; };
+		9F172D062008471B0030B811 /* LoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		9F172D072008471C0030B811 /* LoginTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
+		9F2C76282012644100598BD0 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		9F5E6B2A20D82624005381D8 /* WeatherCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F5E6B2B20D82624005381D8 /* WeatherCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherCollectionViewCell.xib; sourceTree = "<group>"; };
+		9F5E6B2E20D8A627005381D8 /* SectionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionController.swift; sourceTree = "<group>"; };
 		9F807DF02007A8950046F3E3 /* MojotGrad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MojotGrad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F807DF32007A8950046F3E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F807DF52007A8950046F3E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9F807DF52007A8950046F3E3 /* WeatherVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVC.swift; sourceTree = "<group>"; };
 		9F807DF82007A8950046F3E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F807DFA2007A8950046F3E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F807DFD2007A8950046F3E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F807DFF2007A8950046F3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F807E0C2007B09B0046F3E3 /* CONSTANTS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CONSTANTS.swift; sourceTree = "<group>"; };
+		9F807E0E2007B2730046F3E3 /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		9F807E112007B42D0046F3E3 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		9F807E1B2007CACA0046F3E3 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
+		9F807E1D2007CAE70046F3E3 /* NibLoadableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadableView.swift; sourceTree = "<group>"; };
+		9F807E1F2007CB050046F3E3 /* UITableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Ext.swift"; sourceTree = "<group>"; };
+		9F807E212007E1C30046F3E3 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		9F95193320156A1C00F42906 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		9FA7E5DD200BEF1B00278F56 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		9FA7E5E0200C5B6F00278F56 /* VenueRealm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VenueRealm.swift; sourceTree = "<group>"; };
+		9FA7E5E3200D4E6400278F56 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		9FA7E5E5200D4F7200278F56 /* MojotGrad.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MojotGrad.entitlements; sourceTree = "<group>"; };
+		A5A9FAE2D716A8C0C55C894F /* Pods-MojotGrad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MojotGrad.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MojotGrad/Pods-MojotGrad.debug.xcconfig"; sourceTree = "<group>"; };
+		CEB2F9DB20DC6D370071E86B /* UniqueIdGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniqueIdGenerator.swift; sourceTree = "<group>"; };
+		EDF96CC4FEFEB60075A4B09D /* Pods-MojotGrad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MojotGrad.release.xcconfig"; path = "Pods/Target Support Files/Pods-MojotGrad/Pods-MojotGrad.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +88,104 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3879C65357A35E61B5AD7ACB /* Pods_MojotGrad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04C67F7C48D42E021DEA52F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63FF74CD62DC0434B27A2981 /* Pods_MojotGrad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E20E6D540B576148D8E9806 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5A9FAE2D716A8C0C55C894F /* Pods-MojotGrad.debug.xcconfig */,
+				EDF96CC4FEFEB60075A4B09D /* Pods-MojotGrad.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F0E461E200BA3A000B3687A /* WeatherMVC */ = {
+			isa = PBXGroup;
+			children = (
+				9F807E072007ACDF0046F3E3 /* Model */,
+				9F807E062007ACDB0046F3E3 /* View */,
+				9F807E052007ACD20046F3E3 /* Controller */,
+				9F5E6B2E20D8A627005381D8 /* SectionController.swift */,
+			);
+			path = WeatherMVC;
+			sourceTree = "<group>";
+		};
+		9F0E461F200BA69300B3687A /* FoursquareMVC */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E462C200BA6C600B3687A /* Model */,
+				9F0E462B200BA6C100B3687A /* View */,
+				9F0E462A200BA6B500B3687A /* Controller */,
+			);
+			path = FoursquareMVC;
+			sourceTree = "<group>";
+		};
+		9F0E462A200BA6B500B3687A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E4624200BA6AE00B3687A /* HomeController.swift */,
+				9F0E4623200BA6AE00B3687A /* SearchController.swift */,
+				9F0E4621200BA6AD00B3687A /* DetailsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9F0E462B200BA6C100B3687A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E4622200BA6AD00B3687A /* SearchCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F0E462C200BA6C600B3687A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E4620200BA6AD00B3687A /* CoffeePin.swift */,
+				9FA7E5E0200C5B6F00278F56 /* VenueRealm.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F172D02200847090030B811 /* Login Screen */ = {
+			isa = PBXGroup;
+			children = (
+				9F172D052008471B0030B811 /* FacebookLoginButton.swift */,
+				9F172D062008471B0030B811 /* LoginButton.swift */,
+				9F172D072008471C0030B811 /* LoginTextField.swift */,
+				9FA7E5E3200D4E6400278F56 /* LoginVC.swift */,
+			);
+			path = "Login Screen";
+			sourceTree = "<group>";
+		};
+		9F2C76272012643400598BD0 /* RealmManager */ = {
+			isa = PBXGroup;
+			children = (
+				9F2C76282012644100598BD0 /* RealmManager.swift */,
+			);
+			path = RealmManager;
+			sourceTree = "<group>";
+		};
 		9F807DE72007A8950046F3E3 = {
 			isa = PBXGroup;
 			children = (
 				9F807DF22007A8950046F3E3 /* MojotGrad */,
 				9F807DF12007A8950046F3E3 /* Products */,
+				5E20E6D540B576148D8E9806 /* Pods */,
+				04C67F7C48D42E021DEA52F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +200,103 @@
 		9F807DF22007A8950046F3E3 /* MojotGrad */ = {
 			isa = PBXGroup;
 			children = (
+				9F2C76272012643400598BD0 /* RealmManager */,
+				9F807E082007ACE30046F3E3 /* Networking */,
+				9F87F2472010F391007E1824 /* LocationManager */,
+				9F87F2452010EF12007E1824 /* UI */,
+				9FA7E5E5200D4F7200278F56 /* MojotGrad.entitlements */,
+				9F0E461F200BA69300B3687A /* FoursquareMVC */,
+				9F0E461E200BA3A000B3687A /* WeatherMVC */,
+				9F172D02200847090030B811 /* Login Screen */,
+				9F807E182007CAAD0046F3E3 /* Protocols */,
+				9F807E172007CAA60046F3E3 /* Extensions */,
+				9F807E0B2007B08C0046F3E3 /* Utils */,
 				9F807DF32007A8950046F3E3 /* AppDelegate.swift */,
-				9F807DF52007A8950046F3E3 /* ViewController.swift */,
-				9F807DF72007A8950046F3E3 /* Main.storyboard */,
 				9F807DFA2007A8950046F3E3 /* Assets.xcassets */,
 				9F807DFC2007A8950046F3E3 /* LaunchScreen.storyboard */,
 				9F807DFF2007A8950046F3E3 /* Info.plist */,
 			);
 			path = MojotGrad;
+			sourceTree = "<group>";
+		};
+		9F807E052007ACD20046F3E3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9F807DF52007A8950046F3E3 /* WeatherVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9F807E062007ACDB0046F3E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9F5E6B2A20D82624005381D8 /* WeatherCollectionViewCell.swift */,
+				9F5E6B2B20D82624005381D8 /* WeatherCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F807E072007ACDF0046F3E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F807E0E2007B2730046F3E3 /* CurrentWeather.swift */,
+				9F807E212007E1C30046F3E3 /* Forecast.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F807E082007ACE30046F3E3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				9F807E112007B42D0046F3E3 /* ApiManager.swift */,
+				9F0B07F2201448CF00ACE6CC /* NetworkManager.swift */,
+				9F0EB38220161FEC00B41DFB /* ReachabilityMenager.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		9F807E0B2007B08C0046F3E3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				CEB2F9DB20DC6D370071E86B /* UniqueIdGenerator.swift */,
+				9F807E0C2007B09B0046F3E3 /* CONSTANTS.swift */,
+				9F95193320156A1C00F42906 /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9F807E172007CAA60046F3E3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9F807E1F2007CB050046F3E3 /* UITableView+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9F807E182007CAAD0046F3E3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				9F807E1B2007CACA0046F3E3 /* ReusableView.swift */,
+				9F807E1D2007CAE70046F3E3 /* NibLoadableView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		9F87F2452010EF12007E1824 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9F0E462D200BA6EB00B3687A /* Foursquare.storyboard */,
+				9F807DF72007A8950046F3E3 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9F87F2472010F391007E1824 /* LocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				9FA7E5DD200BEF1B00278F56 /* LocationManager.swift */,
+			);
+			path = LocationManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +306,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F807E022007A8950046F3E3 /* Build configuration list for PBXNativeTarget "MojotGrad" */;
 			buildPhases = (
+				B08B01864D27B2B8F4BDA9F1 /* [CP] Check Pods Manifest.lock */,
 				9F807DEC2007A8950046F3E3 /* Sources */,
 				9F807DED2007A8950046F3E3 /* Frameworks */,
 				9F807DEE2007A8950046F3E3 /* Resources */,
+				A9022272E2B4B9196D2F1AA8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -91,12 +328,17 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Teddy;
 				TargetAttributes = {
 					9F807DEF2007A8950046F3E3 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,19 +367,105 @@
 			files = (
 				9F807DFE2007A8950046F3E3 /* LaunchScreen.storyboard in Resources */,
 				9F807DFB2007A8950046F3E3 /* Assets.xcassets in Resources */,
+				9F0E462E200BA6EB00B3687A /* Foursquare.storyboard in Resources */,
 				9F807DF92007A8950046F3E3 /* Main.storyboard in Resources */,
+				9F5E6B2D20D82624005381D8 /* WeatherCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A9022272E2B4B9196D2F1AA8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MojotGrad/Pods-MojotGrad-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/IGListKit/IGListKit.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TransitionButton/TransitionButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IGListKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TransitionButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MojotGrad/Pods-MojotGrad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B08B01864D27B2B8F4BDA9F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MojotGrad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9F807DEC2007A8950046F3E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F807DF62007A8950046F3E3 /* ViewController.swift in Sources */,
+				9F0E4626200BA6AE00B3687A /* DetailsController.swift in Sources */,
+				CEB2F9DC20DC6D370071E86B /* UniqueIdGenerator.swift in Sources */,
+				9F807DF62007A8950046F3E3 /* WeatherVC.swift in Sources */,
+				9F0E4628200BA6AE00B3687A /* SearchController.swift in Sources */,
+				9F807E0F2007B2730046F3E3 /* CurrentWeather.swift in Sources */,
+				9F0E4629200BA6AE00B3687A /* HomeController.swift in Sources */,
+				9F2C76292012644100598BD0 /* RealmManager.swift in Sources */,
+				9F807E1E2007CAE70046F3E3 /* NibLoadableView.swift in Sources */,
+				9F807E1C2007CACA0046F3E3 /* ReusableView.swift in Sources */,
 				9F807DF42007A8950046F3E3 /* AppDelegate.swift in Sources */,
+				9F807E122007B42D0046F3E3 /* ApiManager.swift in Sources */,
+				9F807E202007CB050046F3E3 /* UITableView+Ext.swift in Sources */,
+				9F5E6B2C20D82624005381D8 /* WeatherCollectionViewCell.swift in Sources */,
+				9F807E0D2007B09B0046F3E3 /* CONSTANTS.swift in Sources */,
+				9F0EB38320161FEC00B41DFB /* ReachabilityMenager.swift in Sources */,
+				9F0E4625200BA6AE00B3687A /* CoffeePin.swift in Sources */,
+				9FA7E5E1200C5B6F00278F56 /* VenueRealm.swift in Sources */,
+				9F807E222007E1C30046F3E3 /* Forecast.swift in Sources */,
+				9F0B07F3201448CF00ACE6CC /* NetworkManager.swift in Sources */,
+				9FA7E5DE200BEF1B00278F56 /* LocationManager.swift in Sources */,
+				9F0E4627200BA6AE00B3687A /* SearchCell.swift in Sources */,
+				9F172D0C2008471C0030B811 /* FacebookLoginButton.swift in Sources */,
+				9F172D0D2008471C0030B811 /* LoginButton.swift in Sources */,
+				9F5E6B2F20D8A627005381D8 /* SectionController.swift in Sources */,
+				9F172D0E2008471C0030B811 /* LoginTextField.swift in Sources */,
+				9FA7E5E4200D4E6400278F56 /* LoginVC.swift in Sources */,
+				9F95193420156A1C00F42906 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +505,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +513,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +564,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +572,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -272,13 +604,18 @@
 		};
 		9F807E032007A8950046F3E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A9FAE2D716A8C0C55C894F /* Pods-MojotGrad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = MojotGrad/MojotGrad.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2LEJV6KBBG;
 				INFOPLIST_FILE = MojotGrad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = a.MojotGrad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tedi.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "244e7138-7b7d-49fc-8aa5-f60eb7eecfe2";
+				PROVISIONING_PROFILE_SPECIFIER = TedyTestProfile;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +623,18 @@
 		};
 		9F807E042007A8950046F3E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF96CC4FEFEB60075A4B09D /* Pods-MojotGrad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = MojotGrad/MojotGrad.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2LEJV6KBBG;
 				INFOPLIST_FILE = MojotGrad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = a.MojotGrad;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tedi.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "244e7138-7b7d-49fc-8aa5-f60eb7eecfe2";
+				PROVISIONING_PROFILE_SPECIFIER = TedyTestProfile;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
