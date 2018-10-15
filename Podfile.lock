@@ -6,23 +6,23 @@ PODS:
   - Bolts/AppLinks (1.9.0):
     - Bolts/Tasks
   - Bolts/Tasks (1.9.0)
-  - FBSDKCoreKit (4.33.0):
+  - FBSDKCoreKit (4.37.0):
     - Bolts (~> 1.7)
-  - FBSDKLoginKit (4.33.0):
+  - FBSDKLoginKit (4.37.0):
     - FBSDKCoreKit
-  - FBSDKShareKit (4.33.0):
-    - FBSDKCoreKit (~> 4.33.0)
+  - FBSDKShareKit (4.37.0):
+    - FBSDKCoreKit (~> 4.37.0)
   - IGListKit (3.4.0):
     - IGListKit/Default (= 3.4.0)
   - IGListKit/Default (3.4.0):
     - IGListKit/Diffing
   - IGListKit/Diffing (3.4.0)
   - ReachabilitySwift (4.1.0)
-  - Realm (3.6.0):
-    - Realm/Headers (= 3.6.0)
-  - Realm/Headers (3.6.0)
-  - RealmSwift (3.6.0):
-    - Realm (= 3.6.0)
+  - Realm (3.11.0):
+    - Realm/Headers (= 3.11.0)
+  - Realm/Headers (3.11.0)
+  - RealmSwift (3.11.0):
+    - Realm (= 3.11.0)
   - SwiftyJSON (4.1.0)
   - TransitionButton (0.4.0)
 
@@ -54,16 +54,16 @@ SPEC REPOS:
 SPEC CHECKSUMS:
   Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
   Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
-  FBSDKCoreKit: 572b047a7e029bc44542bcf8a59414e7ff2b543e
-  FBSDKLoginKit: 88cb456349cfb3b554427ce4f8b43729d85dfb40
-  FBSDKShareKit: 1869cb24db2cea90666a50cb9d568deb38e2d16e
+  FBSDKCoreKit: fe5f3474499a81963e11e3f3a5c753d0a95ca2b4
+  FBSDKLoginKit: 2f7249686d1e30ce8a5ef5400eedf50b3e3df332
+  FBSDKShareKit: 52e0083222c38e930eb6878007478326599195c3
   IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
   ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
-  Realm: 08b464b462d4f31bbd4ba5f5a1c8722ef0a700b7
-  RealmSwift: 973e1499c44ab571f894c2c908e2db450be280c3
+  Realm: 92f09a102692b96a9a10e9617f214f15c5ab85fc
+  RealmSwift: 5f0481cd658bb751c509314b964a35eaa264d2cf
   SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
   TransitionButton: d271030914c84a00b54b4d983446944d2875e7ba
 
-PODFILE CHECKSUM: 9326b7f4ec7406a7015f3829761b353f12b92633
+PODFILE CHECKSUM: 4df7bdb7289de8f1bfc418f52aa51cea87d87ab0
 
 COCOAPODS: 1.5.3

@@ -47,6 +47,7 @@ class WeatherVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         getLocationAndUpdateMainUI()
        adapter.collectionView = collectionView
         adapter.dataSource = self
